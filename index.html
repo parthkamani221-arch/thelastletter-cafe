@@ -1,1039 +1,446 @@
-root {
-    --cream #f4ecdf;
-    --paper #eadcc7;
-    --brown #2b1b12;
-    --walnut #6d4932;
-    --gold #b98a3e;
-    --muted #75624f;
-    --white #fffaf2;
-}
-
- {
-    box-sizing border-box;
-    margin 0;
-    padding 0;
-}
-
-html {
-    scroll-behavior smooth;
-}
-
-body {
-    background var(--cream);
-    color var(--brown);
-    font-family Inter, Arial, sans-serif;
-    line-height 1.7;
-}
-
-img {
-    width 100%;
-    display block;
-}
-
-a {
-    color inherit;
-    text-decoration none;
-}
-
-
- =========================
-   HEADER
-========================= 
-
-.site-header {
-    position fixed;
-    z-index 100;
-    top 0;
-    left 0;
-    right 0;
-
-    min-height 78px;
-
-    padding 12px 5vw;
-
-    display flex;
-    align-items center;
-    justify-content space-between;
-
-    background rgba(43, 27, 18, 0.94);
-
-    backdrop-filter blur(12px);
-
-    color var(--white);
-
-    border-bottom 1px solid rgba(255,255,255,0.08);
-}
-
-
- BRAND 
-
-.brand {
-    display flex;
-    align-items center;
-    gap 10px;
-}
-
-.brand-icon {
-    font-size 29px;
-    color var(--gold);
-}
-
-.brand-text small,
-.brand-text strong,
-.brand-text em {
-    display block;
-    line-height 1;
-}
-
-.brand-text small {
-    font-size 8px;
-    letter-spacing 5px;
-    text-align center;
-}
-
-.brand-text strong {
-    font-family Cormorant Garamond, Georgia, serif;
-    font-size 20px;
-    letter-spacing 2px;
-}
-
-.brand-text em {
-    font-family Parisienne, cursive;
-    font-size 15px;
-    text-align center;
-    color #d5ae6a;
-}
-
-
- NAVIGATION 
-
-.navigation {
-    display flex;
-    gap 28px;
-    align-items center;
-}
-
-.navigation a {
-    font-size 12px;
-    letter-spacing 1.4px;
-    text-transform uppercase;
-    color #f6ead8;
-    transition 0.25s;
-}
-
-.navigation ahover {
-    color #d9ad62;
-}
-
-
- MOBILE MENU BUTTON 
-
-.menu-button {
-    display none;
-
-    background none;
-    border none;
-
-    color white;
-
-    font-size 25px;
-
-    cursor pointer;
-}
-
-
- =========================
-   HERO
-========================= 
-
-.hero {
-    min-height 100vh;
-
-    position relative;
-
-    display flex;
-    align-items center;
-
-    overflow hidden;
-
-    color white;
-}
-
-
- HERO IMAGE 
-
-.hero-background {
-    position absolute;
-
-    inset 0;
-
-    background
-        linear-gradient(
-            90deg,
-            rgba(25,13,8,0.86),
-            rgba(25,13,8,0.32) 55%,
-            rgba(25,13,8,0.48)
-        ),
-        url(images3.jpg)
-        center  cover no-repeat;
-
-    transform scale(1.02);
-}
-
-
- EXTRA DARK OVERLAY 
-
-.hero-dark {
-    position absolute;
-
-    inset 0;
-
-    background
-        radial-gradient(
-            circle at 75% 35%,
-            transparent,
-            rgba(25,13,8,0.35) 70%
-        );
-}
-
-
- HERO CONTENT 
-
-.hero-content {
-    position relative;
-
-    z-index 2;
-
-    width min(720px, 90%);
-
-    margin-left 8vw;
-
-    padding-top 80px;
-}
-
-
-.eyebrow {
-    font-size 11px;
-
-    letter-spacing 4px;
-
-    font-weight 600;
-
-    margin-bottom 18px;
-
-    color #d6b77d;
-}
-
-
-.eyebrow-dark {
-    color var(--walnut);
-}
-
-
-.hero h1 {
-    font-family Cormorant Garamond,
-                 Georgia,
-                 serif;
-
-    font-size clamp(
-        58px,
-        8vw,
-        112px
-    );
-
-    line-height 0.88;
-
-    font-weight 500;
-
-    letter-spacing -2px;
-}
-
-
-.hero h1 span {
-    color #e0bd83;
-
-    font-style italic;
-}
-
-
-.hero-description {
-    max-width 570px;
-
-    margin 30px 0;
-
-    font-size 17px;
-
-    color #f4e9d7;
-}
-
-
- BUTTONS 
-
-.hero-buttons {
-    display flex;
-
-    gap 13px;
-
-    flex-wrap wrap;
-}
-
-
-.button {
-    display inline-block;
-
-    padding 13px 23px;
-
-    border-radius 2px;
-
-    font-size 11px;
-
-    letter-spacing 1.5px;
-
-    text-transform uppercase;
-
-    font-weight 600;
-
-    transition 0.25s;
-}
-
-
-.button-gold {
-    background var(--gold);
-
-    color #24150d;
-}
-
-
-.button-goldhover {
-    transform translateY(-2px);
-
-    filter brightness(1.08);
-}
-
-
-.button-outline {
-    border 1px solid rgba(255,255,255,0.65);
-
-    color white;
-}
-
-
-.button-outlinehover {
-    background white;
-
-    color var(--brown);
-}
-
-
-.button-dark {
-    background var(--brown);
-
-    color var(--white);
-}
-
-
-.button-darkhover {
-    transform translateY(-2px);
-}
-
-
-.scroll-text {
-    position absolute;
-
-    bottom 28px;
-
-    left 8vw;
-
-    z-index 2;
-
-    font-size 9px;
+<!DOCTYPE html>
+<html lang="en">
 
-    letter-spacing 3px;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    opacity 0.7;
-}
-
-
- =========================
-   GENERAL SECTIONS
-========================= 
-
-.section {
-    padding 120px 8vw;
-}
-
-
-.story {
-    display grid;
-
-    grid-template-columns 1fr 1fr;
-
-    gap 8vw;
-
-    align-items center;
-}
-
-
-.story-content h2,
-.section-heading h2,
-.visit-content h2 {
-    font-family
-        Cormorant Garamond,
-        Georgia,
-        serif;
-
-    font-size clamp(
-        48px,
-        6vw,
-        82px
-    );
-
-    line-height 0.9;
-
-    font-weight 500;
-}
-
-
-.story-content h2 i,
-.section-heading h2 i,
-.visit-content h2 i {
-    color var(--walnut);
-}
-
-
-.gold-line {
-    width 70px;
-
-    height 1px;
-
-    background var(--gold);
-
-    margin 24px 0;
-}
-
-
-.story-description {
-    max-width 510px;
-
-    color var(--muted);
-
-    margin-top 18px;
-}
-
-
-.story-photo {
-    box-shadow
-        0 18px 50px rgba(
-            43,
-            27,
-            18,
-            0.14
-        );
-}
-
-
-.story-photo img {
-    aspect-ratio 4  5;
-
-    object-fit cover;
-}
+    <title>The Last Letter Café</title>
 
+    <meta name="description"
+          content="The Last Letter Café — Coffee, stories, memories and moments worth keeping.">
 
- =========================
-   DARK SECTION
-========================= 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-.section-dark,
-.menu-section {
-    background var(--brown);
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Parisienne&display=swap"
+          rel="stylesheet">
 
-    color var(--white);
-}
-
-
-.experience {
-    padding 120px 8vw;
-}
-
-
-.section-heading {
-    max-width 720px;
-
-    margin-bottom 55px;
-}
-
-
-.section-heading  plast-child {
-    margin-top 18px;
-
-    color #cbbba5;
-}
-
-
-.section-heading.light h2 {
-    color var(--white);
-}
-
-
-.section-heading.light h2 i {
-    color #d6ad69;
-}
-
+    <link rel="stylesheet" href="style.css">
+</head>
 
- =========================
-   EXPERIENCE
-========================= 
+<body>
 
-.experience-grid {
-    display grid;
+<header class="header">
 
-    grid-template-columns
-        repeat(4, 1fr);
+    <a href="#home" class="logo">
+        <span class="logo-envelope">✉</span>
 
-    border-top
-        1px solid
-        rgba(255,255,255,0.15);
-}
-
-
-.experience-card {
-    padding 40px 28px 20px 0;
-
-    border-right
-        1px solid
-        rgba(255,255,255,0.12);
-}
-
-
-.experience-cardnot(first-child) {
-    padding-left 28px;
-}
-
+        <span>
+            <small>THE</small>
+            <strong>LAST LETTER</strong>
+            <em>CAFÉ</em>
+        </span>
+    </a>
 
-.experience-cardlast-child {
-    border-right none;
-}
-
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
 
-.experience-icon {
-    font-size 28px;
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#story">Our Story</a>
+        <a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit</a>
+    </nav>
 
-    color #d0a55e;
-}
+</header>
 
 
-.experience-card h3 {
-    font-family
-        Cormorant Garamond,
-        Georgia,
-        serif;
+<!-- HERO -->
 
-    font-size 28px;
-
-    margin 18px 0 10px;
-}
+<section id="home" class="hero">
 
+    <div class="hero-overlay"></div>
 
-.experience-card p {
-    font-size 14px;
+    <div class="hero-content">
 
-    color #cdbda8;
-}
+        <p class="eyebrow">
+            COFFEE • STORIES • MEMORIES
+        </p>
 
+        <h1>
+            Some feelings
+            <br>
+            <i>deserve a place.</i>
+        </h1>
 
- =========================
-   GALLERY
-========================= 
+        <p>
+            A warm little café for conversations,
+            quiet moments, handwritten letters
+            and memories worth keeping.
+        </p>
 
-.gallery-grid {
-    display grid;
+        <div class="buttons">
 
-    grid-template-columns
-        repeat(12, 1fr);
+            <a href="#experience" class="btn gold">
+                Discover The Café
+            </a>
 
-    gap 14px;
-}
+            <a href="#menu" class="btn outline">
+                Explore Menu
+            </a>
 
+        </div>
 
-.gallery-photo {
-    grid-column span 4;
+    </div>
 
-    overflow hidden;
+</section>
 
-    background #ddd;
-}
 
+<!-- STORY -->
 
-.gallery-large {
-    grid-column span 8;
+<section id="story" class="section story">
 
-    grid-row span 2;
-}
+    <div class="story-text">
 
+        <p class="eyebrow dark">
+            THE IDEA
+        </p>
 
-.gallery-wide {
-    grid-column span 8;
-}
+        <h2>
+            Every letter
+            <br>
+            <i>has a story.</i>
+        </h2>
 
+        <div class="line"></div>
 
-.gallery-photo img {
-    height 100%;
+        <p>
+            Some letters are never sent.
+            Some conversations never happen.
+            Some memories deserve one last place to stay.
+        </p>
 
-    min-height 300px;
+        <p>
+            The Last Letter Café is a space created
+            for those moments — where coffee,
+            conversations and stories come together.
+        </p>
 
-    object-fit cover;
+    </div>
 
-    transition
-        transform 0.7s ease;
-}
+    <div class="story-image">
+        <img src="images/1.jpg" alt="The Last Letter Café">
+    </div>
 
+</section>
 
-.gallery-photohover img {
-    transform scale(1.04);
-}
 
+<!-- EXPERIENCE -->
 
- =========================
-   MENU
-========================= 
+<section id="experience" class="dark-section">
 
-.menu-section {
-    padding 120px 8vw;
-}
+    <div class="heading">
 
+        <p class="eyebrow">
+            THE EXPERIENCE
+        </p>
 
-.menu-container {
-    max-width 1100px;
+        <h2>
+            More than
+            <br>
+            <i>just coffee.</i>
+        </h2>
 
-    margin auto;
+        <p>
+            Come for the coffee.
+            Stay for the feeling.
+        </p>
 
-    padding 40px;
+    </div>
 
-    border
-        1px solid
-        rgba(218,187,139,0.35);
 
-    display grid;
+    <div class="cards">
 
-    grid-template-columns
-        repeat(3,1fr);
+        <article class="card">
 
-    gap 50px;
+            <div class="icon">✉</div>
 
-    background
-        rgba(255,255,255,0.025);
-}
+            <h3>Write Your Last Letter</h3>
 
+            <p>
+                Put the words you've been carrying
+                somewhere safe. Write, seal and leave
+                a little piece of your story behind.
+            </p>
 
-.menu-category h3 {
-    font-family
-        Cormorant Garamond,
-        Georgia,
-        serif;
+        </article>
 
-    color #d9b575;
 
-    font-size 30px;
+        <article class="card">
 
-    margin-bottom 20px;
-}
+            <div class="icon">☕</div>
 
+            <h3>Slow Coffee</h3>
 
-.menu-item {
-    display flex;
+            <p>
+                Warm cups, quiet corners and coffee
+                made for conversations that don't
+                need to be rushed.
+            </p>
 
-    justify-content space-between;
+        </article>
 
-    gap 20px;
 
-    padding 13px 0;
+        <article class="card">
 
-    border-bottom
-        1px dashed
-        rgba(255,255,255,0.15);
+            <div class="icon">♡</div>
 
-    font-size 14px;
+            <h3>Memory Corner</h3>
 
-    color #e9dcc9;
-}
+            <p>
+                Leave a thought, read someone else's,
+                or simply sit quietly with your memories.
+            </p>
 
+        </article>
 
-.menu-item strong {
-    color #d8b16f;
 
-    font-weight 500;
-}
+        <article class="card">
 
+            <div class="icon">📖</div>
 
- =========================
-   LETTER SECTION
-========================= 
+            <h3>Stories & Books</h3>
 
-.letter-section {
-    padding 140px 8vw;
+            <p>
+                A cozy atmosphere for readers,
+                dreamers, writers and anyone who
+                loves a good story.
+            </p>
 
-    text-align center;
+        </article>
 
-    background var(--paper);
-}
+    </div>
 
+</section>
 
-.letter-section h2 {
-    font-family
-        Cormorant Garamond,
-        Georgia,
-        serif;
 
-    font-size
-        clamp(38px,5vw,68px);
+<!-- GALLERY -->
 
-    line-height 1.05;
+<section id="gallery" class="section">
 
-    font-weight 500;
-}
+    <div class="heading dark-heading">
 
+        <p class="eyebrow dark">
+            THE CAFÉ
+        </p>
 
-.letter-section h2 i {
-    color var(--walnut);
-}
+        <h2>
+            A place worth
+            <br>
+            <i>remembering.</i>
+        </h2>
 
+    </div>
 
- =========================
-   VISIT
-========================= 
 
-.visit {
-    display grid;
+    <div class="gallery">
 
-    grid-template-columns
-        1fr 1fr;
+        <div class="gallery-item big">
+            <img src="images/2.jpg" alt="The Last Letter Café">
+        </div>
 
-    gap 7vw;
+        <div class="gallery-item">
+            <img src="images/3.jpg" alt="Cafe interior">
+        </div>
 
-    align-items center;
-}
+        <div class="gallery-item">
+            <img src="images/4.jpg" alt="Letter wall">
+        </div>
 
+        <div class="gallery-item wide">
+            <img src="images/5.jpg" alt="Cafe atmosphere">
+        </div>
 
-.visit-photo img {
-    aspect-ratio 4  3;
+        <div class="gallery-item">
+            <img src="images/6.jpg" alt="Coffee">
+        </div>
 
-    object-fit cover;
+        <div class="gallery-item">
+            <img src="images/7.jpg" alt="The Last Letter Café">
+        </div>
 
-    box-shadow
-        0 18px 50px
-        rgba(43,27,18,0.14);
-}
+    </div>
 
+</section>
 
-.visit-description {
-    max-width 500px;
 
-    margin 25px 0;
+<!-- MENU -->
 
-    color var(--muted);
-}
+<section id="menu" class="dark-section menu">
 
+    <div class="heading">
 
- CONTACT 
+        <p class="eyebrow">
+            FROM THE CAFÉ
+        </p>
 
-.contact-information {
-    margin 28px 0;
+        <h2>
+            A little something
+            <br>
+            <i>for every mood.</i>
+        </h2>
 
-    display grid;
+    </div>
 
-    gap 17px;
-}
 
+    <div class="menu-grid">
 
-.contact-row {
-    display flex;
+        <div>
 
-    gap 15px;
+            <h3>☕ Coffee</h3>
 
-    align-items center;
-}
+            <p><span>Espresso</span><b>₹ —</b></p>
+            <p><span>Cappuccino</span><b>₹ —</b></p>
+            <p><span>Café Latte</span><b>₹ —</b></p>
+            <p><span>Mocha</span><b>₹ —</b></p>
 
+        </div>
 
-.contact-row  span {
-    font-size 20px;
-}
 
+        <div>
 
-.contact-row small,
-.contact-row strong {
-    display block;
-}
+            <h3>🍰 Sweet Stories</h3>
 
+            <p><span>Cheesecake</span><b>₹ —</b></p>
+            <p><span>Chocolate Cake</span><b>₹ —</b></p>
+            <p><span>Brownie</span><b>₹ —</b></p>
+            <p><span>Today's Special</span><b>₹ —</b></p>
 
-.contact-row small {
-    font-size 9px;
+        </div>
 
-    letter-spacing 2px;
 
-    color var(--walnut);
-}
+        <div>
 
+            <h3>🥪 From The Kitchen</h3>
 
-.contact-row strong {
-    font-size 14px;
+            <p><span>Sandwich</span><b>₹ —</b></p>
+            <p><span>Toasties</span><b>₹ —</b></p>
+            <p><span>Pasta</span><b>₹ —</b></p>
+            <p><span>Chef's Special</span><b>₹ —</b></p>
 
-    font-weight 500;
-}
+        </div>
 
+    </div>
 
- =========================
-   FOOTER
-========================= 
+</section>
 
-footer {
-    background #1d100a;
 
-    color #eee2d2;
+<!-- QUOTE -->
 
-    padding
-        70px 8vw
-        25px;
+<section class="quote">
 
-    text-align center;
-}
+    <p class="eyebrow dark">
+        A NOTE FROM US
+    </p>
 
+    <h2>
+        “Not every letter
+        <br>
+        needs a reply.
+        <br>
+        <i>Some are just meant to be felt.</i>”
+    </h2>
 
-.footer-icon {
-    font-size 30px;
+</section>
 
-    color var(--gold);
 
-    margin-bottom 8px;
-}
+<!-- VISIT -->
 
+<section id="visit" class="section visit">
 
-.footer-content h3 {
-    font-family
-        Cormorant Garamond,
-        Georgia,
-        serif;
+    <div class="visit-image">
 
-    font-size 34px;
+        <img src="images/4.jpg" alt="The Last Letter Café">
 
-    letter-spacing 3px;
-}
+    </div>
 
 
-.footer-content p {
-    color #c7af91;
+    <div>
 
-    font-family
-        Parisienne,
-        cursive;
+        <p class="eyebrow dark">
+            COME SAY HELLO
+        </p>
 
-    font-size 23px;
-}
+        <h2>
+            Your next story
+            <br>
+            <i>starts here.</i>
+        </h2>
 
+        <p class="visit-text">
+            A place for coffee, conversations,
+            letters and moments worth remembering.
+        </p>
 
-.footer-bottom {
-    margin-top 60px;
 
-    padding-top 18px;
+        <div class="contact">
 
-    border-top
-        1px solid
-        rgba(255,255,255,0.1);
+            <p>
+                📍 <strong>ADDRESS</strong><br>
+                Coming soon
+            </p>
 
-    display flex;
+            <p>
+                ☎ <strong>PHONE</strong><br>
+                Coming soon
+            </p>
 
-    justify-content space-between;
+            <p>
+                ✉ <strong>EMAIL</strong><br>
+                hello@thelastletter.co.in
+            </p>
 
-    font-size 10px;
+        </div>
 
-    letter-spacing 1px;
 
-    color #927d69;
-}
+        <a href="mailto:hello@thelastletter.co.in"
+           class="btn brown">
 
+            Write to Us
 
- =========================
-   TABLET
-========================= 
+        </a>
 
-@media (max-width 900px) {
+    </div>
 
-    .navigation {
-        gap 15px;
-    }
+</section>
 
 
-    .navigation a {
-        font-size 10px;
-    }
+<!-- FOOTER -->
 
+<footer>
 
-    .experience-grid {
-        grid-template-columns
-            repeat(2,1fr);
-    }
+    <div class="footer-logo">
+        ✉
+    </div>
 
+    <h3>
+        THE LAST LETTER CAFÉ
+    </h3>
 
-    .experience-cardnth-child(2) {
-        border-right none;
-    }
+    <p>
+        Some feelings deserve a place.
+    </p>
 
+    <div class="copyright">
+        © 2026 The Last Letter Café
+    </div>
 
-    .experience-cardnth-child(3),
-    .experience-cardnth-child(4) {
+</footer>
 
-        border-top
-            1px solid
-            rgba(255,255,255,0.12);
 
-    }
+<script>
 
+function toggleMenu() {
 
-    .menu-container {
-        grid-template-columns 1fr;
-    }
+    document
+        .getElementById("nav")
+        .classList.toggle("show");
 
 }
-
-
- =========================
-   MOBILE
-========================= 
-
-@media (max-width 700px) {
-
-    .site-header {
-        min-height 68px;
-    }
-
-
-    .menu-button {
-        display block;
-    }
-
-
-    .navigation {
-        display none;
-
-        position absolute;
-
-        top 68px;
-
-        left 0;
-
-        right 0;
-
-        padding
-            20px 7vw;
-
-        background
-            #2b1b12;
 
-        flex-direction column;
+</script>
 
-        align-items flex-start;
-    }
-
-
-    .navigation.active {
-        display flex;
-    }
-
-
-    .hero-content {
-        margin-left 7vw;
-
-        padding-top 70px;
-    }
-
-
-    .hero h1 {
-        font-size
-            clamp(
-                52px,
-                15vw,
-                76px
-            );
-    }
-
-
-    .hero-description {
-        font-size 15px;
-    }
-
-
-    .story,
-    .visit {
-        grid-template-columns 1fr;
-    }
-
-
-    .section,
-    .experience,
-    .menu-section {
-        padding
-            80px 7vw;
-    }
-
-
-    .gallery-grid {
-        grid-template-columns
-            1fr 1fr;
-    }
-
-
-    .gallery-photo,
-    .gallery-large,
-    .gallery-wide {
-
-        grid-column span 1;
-
-        grid-row auto;
-    }
-
-
-    .gallery-large {
-        grid-column span 2;
-    }
-
-
-    .gallery-photo img {
-        min-height 210px;
-    }
-
-
-    .experience-grid {
-        grid-template-columns 1fr;
-    }
-
-
-    .experience-card,
-    .experience-cardnot(first-child) {
-
-        border-right none;
-
-        border-top
-            1px solid
-            rgba(255,255,255,0.12);
-
-        padding
-            30px 0;
-    }
-
-
-    .experience-cardfirst-child {
-        border-top none;
-    }
-
-
-    .menu-container {
-        padding 25px;
-    }
-
-
-    .footer-bottom {
-        flex-direction column;
-
-        gap 8px;
-    }
-
-}
+</body>
+</html>
