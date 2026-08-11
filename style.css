@@ -1,765 +1,633 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-          content="The Last Letter Cafe — Coffee, stories, memories and moments worth keeping.">
-
-    <title>The Last Letter Cafe</title>
-
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Parisienne&display=swap"
-          rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<!-- =========================
-     NAVIGATION
-========================= -->
-
-<header class="site-header">
-
-    <a href="#home" class="brand">
-
-        <span class="brand-icon">✉</span>
-
-        <span class="brand-text">
-            <small>THE</small>
-            <strong>LAST LETTER</strong>
-            <em>CAFÉ</em>
-        </span>
-
-    </a>
-
-    <button class="menu-button"
-            aria-label="Open navigation">
-        ☰
-    </button>
-
-    <nav class="navigation">
-
-        <a href="#home">Home</a>
-
-        <a href="#story">Our Story</a>
-
-        <a href="#experience">Experience</a>
-
-        <a href="#gallery">Gallery</a>
-
-        <a href="#menu">Menu</a>
-
-        <a href="#visit">Visit Us</a>
-
-    </nav>
-
-</header>
-
-
-<main>
-
-<!-- =========================
-     HERO
-========================= -->
-
-<section id="home" class="hero">
-
-    <div class="hero-background"></div>
-
-    <div class="hero-dark"></div>
-
-    <div class="hero-content">
-
-        <p class="eyebrow">
-            COFFEE • STORIES • MEMORIES
-        </p>
-
-        <h1>
-            Some feelings
-            <br>
-            <span>deserve a place.</span>
-        </h1>
-
-        <p class="hero-description">
-
-            A warm little café for conversations,
-            quiet moments, handwritten letters
-            and memories worth keeping.
-
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="#experience"
-               class="button button-gold">
-
-                Discover The Café
-
-            </a>
-
-            <a href="#menu"
-               class="button button-outline">
-
-                Explore Menu
-
-            </a>
-
-        </div>
-
-    </div>
-
-    <div class="scroll-text">
-        SCROLL TO DISCOVER ↓
-    </div>
-
-</section>
-
-
-<!-- =========================
-     STORY
-========================= -->
-
-<section id="story" class="story section">
-
-    <div class="story-content">
-
-        <p class="eyebrow eyebrow-dark">
-            THE IDEA
-        </p>
-
-        <h2>
-            Every letter
-            <br>
-            <i>has a story.</i>
-        </h2>
-
-        <div class="gold-line"></div>
-
-        <p class="story-description">
-
-            Some letters are never sent.
-
-            Some conversations never happen.
-
-            Some memories deserve one last place
-            to stay.
-
-        </p>
-
-        <p class="story-description">
-
-            The Last Letter Cafe is a space created
-            for those moments — where coffee,
-            conversations and stories come together.
-
-        </p>
-
-    </div>
-
-
-    <div class="story-photo">
-
-        <img src="images/1.jpg"
-             alt="The Last Letter Cafe">
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     EXPERIENCE
-========================= -->
-
-<section id="experience"
-         class="experience section-dark">
-
-    <div class="section-heading light">
-
-        <p class="eyebrow">
-            THE EXPERIENCE
-        </p>
-
-        <h2>
-            More than
-            <br>
-            just coffee.
-        </h2>
-
-        <p>
-            Come for the coffee.
-            Stay for the feeling.
-        </p>
-
-    </div>
-
-
-    <div class="experience-grid">
-
-
-        <div class="experience-card">
-
-            <div class="experience-icon">
-                ✉
-            </div>
-
-            <h3>
-                Write Your Last Letter
-            </h3>
-
-            <p>
-
-                Put the words you've been
-                carrying somewhere safe.
-
-                Write, seal and leave a little
-                piece of your story behind.
-
-            </p>
-
-        </div>
-
-
-        <div class="experience-card">
-
-            <div class="experience-icon">
-                ☕
-            </div>
-
-            <h3>
-                Slow Coffee
-            </h3>
-
-            <p>
-
-                Warm cups, quiet corners
-                and coffee made for conversations
-                that don't need to be rushed.
-
-            </p>
-
-        </div>
-
-
-        <div class="experience-card">
-
-            <div class="experience-icon">
-                ♡
-            </div>
-
-            <h3>
-                Memory Corner
-            </h3>
-
-            <p>
-
-                Leave a thought, read someone
-                else's, or simply sit with
-                your own memories.
-
-            </p>
-
-        </div>
-
-
-        <div class="experience-card">
-
-            <div class="experience-icon">
-                📖
-            </div>
-
-            <h3>
-                Stories & Books
-            </h3>
-
-            <p>
-
-                A cozy atmosphere for readers,
-                dreamers, writers and anyone
-                who loves a good story.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     GALLERY
-========================= -->
-
-<section id="gallery"
-         class="gallery-section section">
-
-    <div class="section-heading">
-
-        <p class="eyebrow eyebrow-dark">
-            THE CAFÉ
-        </p>
-
-        <h2>
-            A place worth
-            <br>
-            <i>remembering.</i>
-        </h2>
-
-    </div>
-
-
-    <div class="gallery-grid">
-
-
-        <div class="gallery-photo gallery-large">
-
-            <img src="images/2.jpg"
-                 alt="The Last Letter Cafe">
-
-        </div>
-
-
-        <div class="gallery-photo">
-
-            <img src="images/3.jpg"
-                 alt="Cafe interior">
-
-        </div>
-
-
-        <div class="gallery-photo">
-
-            <img src="images/4.jpg"
-                 alt="Letter wall">
-
-        </div>
-
-
-        <div class="gallery-photo gallery-wide">
-
-            <img src="images/5.jpg"
-                 alt="Cafe atmosphere">
-
-        </div>
-
-
-        <div class="gallery-photo">
-
-            <img src="images/6.jpg"
-                 alt="Coffee at The Last Letter Cafe">
-
-        </div>
-
-
-        <div class="gallery-photo">
-
-            <img src="images/7.jpg"
-                 alt="The Last Letter Cafe">
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     MENU
-========================= -->
-
-<section id="menu"
-         class="menu-section">
-
-    <div class="section-heading light">
-
-        <p class="eyebrow">
-            FROM THE CAFÉ
-        </p>
-
-        <h2>
-            A little something
-            <br>
-            <i>for every mood.</i>
-        </h2>
-
-        <p>
-            Our menu will be updated with
-            the latest dishes and prices.
-        </p>
-
-    </div>
-
-
-    <div class="menu-container">
-
-
-        <!-- COFFEE -->
-
-        <div class="menu-category">
-
-            <h3>
-                ☕ Coffee
-            </h3>
-
-
-            <div class="menu-item">
-
-                <span>Espresso</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-
-            <div class="menu-item">
-
-                <span>Cappuccino</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-
-            <div class="menu-item">
-
-                <span>Café Latte</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-
-            <div class="menu-item">
-
-                <span>Mocha</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-        </div>
-
-
-        <!-- DESSERT -->
-
-        <div class="menu-category">
-
-            <h3>
-                🍰 Sweet Stories
-            </h3>
-
-
-            <div class="menu-item">
-
-                <span>Cheesecake</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-
-            <div class="menu-item">
-
-                <span>Chocolate Cake</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-
-            <div class="menu-item">
-
-                <span>Brownie</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-
-            <div class="menu-item">
-
-                <span>Today's Special</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-        </div>
-
-
-        <!-- FOOD -->
-
-        <div class="menu-category">
-
-            <h3>
-                🥪 From the Kitchen
-            </h3>
-
-
-            <div class="menu-item">
-
-                <span>Sandwich</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-
-            <div class="menu-item">
-
-                <span>Toasties</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-
-            <div class="menu-item">
-
-                <span>Pasta</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-
-            <div class="menu-item">
-
-                <span>Chef's Special</span>
-
-                <strong>₹ —</strong>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     LETTER QUOTE
-========================= -->
-
-<section class="letter-section">
-
-    <p class="eyebrow eyebrow-dark">
-        A NOTE FROM US
-    </p>
-
-    <h2>
-
-        “Not every letter
-        <br>
-
-        needs a reply.
-
-        <br>
-
-        <i>
-            Some are just meant
-            to be felt.
-        </i>
-
-        ”
-
-    </h2>
-
-</section>
-
-
-<!-- =========================
-     VISIT
-========================= -->
-
-<section id="visit"
-         class="visit section">
-
-
-    <div class="visit-photo">
-
-        <img src="images/4.jpg"
-             alt="The Last Letter Cafe">
-
-    </div>
-
-
-    <div class="visit-content">
-
-        <p class="eyebrow eyebrow-dark">
-            COME SAY HELLO
-        </p>
-
-        <h2>
-
-            Your next story
-            <br>
-
-            <i>starts here.</i>
-
-        </h2>
-
-
-        <p class="visit-description">
-
-            A place for coffee,
-            conversations, letters
-            and moments worth remembering.
-
-        </p>
-
-
-        <div class="contact-information">
-
-
-            <div class="contact-row">
-
-                <span>📍</span>
-
-                <div>
-
-                    <small>ADDRESS</small>
-
-                    <strong>
-                        Coming soon
-                    </strong>
-
-                </div>
-
-            </div>
-
-
-            <div class="contact-row">
-
-                <span>☎</span>
-
-                <div>
-
-                    <small>PHONE</small>
-
-                    <strong>
-                        Coming soon
-                    </strong>
-
-                </div>
-
-            </div>
-
-
-            <div class="contact-row">
-
-                <span>✉</span>
-
-                <div>
-
-                    <small>EMAIL</small>
-
-                    <strong>
-                        hello@thelastletter.co.in
-                    </strong>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <a href="mailto:hello@thelastletter.co.in"
-           class="button button-dark">
-
-            Write to Us
-
-        </a>
-
-    </div>
-
-</section>
-
-</main>
-
-
-<!-- =========================
-     FOOTER
-========================= -->
-
-<footer>
-
-    <div class="footer-content">
-
-        <div class="footer-icon">
-            ✉
-        </div>
-
-        <h3>
-            THE LAST LETTER CAFÉ
-        </h3>
-
-        <p>
-            Some feelings deserve a place.
-        </p>
-
-    </div>
-
-
-    <div class="footer-bottom">
-
-        <span>
-            © 2026 The Last Letter Cafe
-        </span>
-
-        <span>
-            Coffee • Food • Stories
-        </span>
-
-    </div>
-
-</footer>
-
-
-<script>
-
-const menuButton =
-    document.querySelector(".menu-button");
-
-const navigation =
-    document.querySelector(".navigation");
-
-
-menuButton.addEventListener("click", function () {
-
-    navigation.classList.toggle("active");
-
-});
-
-
-document
-    .querySelectorAll(".navigation a")
-    .forEach(function(link) {
-
-        link.addEventListener("click", function() {
-
-            navigation.classList.remove("active");
-
-        });
-
-    });
-
-</script>
-
-</body>
-</html>
+:root {
+    --cream: #f4ecdf;
+    --paper: #eadcc7;
+    --brown: #2b1b12;
+    --walnut: #6d4932;
+    --gold: #b98a3e;
+    --muted: #75624f;
+    --white: #fffaf2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--cream);
+    color: var(--brown);
+    font-family: Inter, Arial, sans-serif;
+    line-height: 1.7;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    height: 78px;
+    padding: 10px 6vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgba(43, 27, 18, 0.95);
+    backdrop-filter: blur(12px);
+
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-envelope {
+    font-size: 30px;
+    color: #d5a95e;
+}
+
+.logo small,
+.logo strong,
+.logo em {
+    display: block;
+    line-height: 1;
+}
+
+.logo small {
+    text-align: center;
+    font-size: 8px;
+    letter-spacing: 5px;
+}
+
+.logo strong {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.logo em {
+    text-align: center;
+    color: #d5a95e;
+    font-family: Parisienne, cursive;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+nav a {
+    color: #f6ead8;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #d5a95e;
+}
+
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(35, 19, 11, .88),
+            rgba(35, 19, 11, .45)
+        ),
+        url("images/3.jpg")
+        center / cover no-repeat;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at 75% 35%,
+            transparent,
+            rgba(30, 15, 8, .45)
+        );
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    max-width: 760px;
+    margin-left: 8vw;
+    padding-top: 70px;
+}
+
+.eyebrow {
+    color: #d5ae68;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(58px, 8vw, 110px);
+    line-height: .88;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+
+.hero h1 i {
+    color: #dfba7b;
+}
+
+.hero-content > p:not(.eyebrow) {
+    max-width: 570px;
+    margin: 30px 0;
+
+    color: #f3e8d8;
+    font-size: 17px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 24px;
+
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    transition: .25s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn.gold {
+    background: var(--gold);
+    color: #24150d;
+}
+
+.btn.outline {
+    border: 1px solid rgba(255,255,255,.7);
+    color: white;
+}
+
+.btn.outline:hover {
+    background: white;
+    color: var(--brown);
+}
+
+.btn.brown {
+    background: var(--brown);
+    color: white;
+}
+
+/* GENERAL */
+
+.section {
+    padding: 120px 8vw;
+}
+
+.story,
+.visit {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7vw;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(48px, 6vw, 82px);
+    font-weight: 500;
+    line-height: .92;
+}
+
+h2 i {
+    color: var(--walnut);
+}
+
+.dark {
+    color: var(--walnut);
+}
+
+.line {
+    width: 70px;
+    height: 1px;
+    background: var(--gold);
+    margin: 25px 0;
+}
+
+.story-text > p:not(.eyebrow) {
+    max-width: 520px;
+    margin-top: 17px;
+    color: var(--muted);
+}
+
+.story-image img {
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    box-shadow: 0 20px 50px rgba(43,27,18,.16);
+}
+
+/* DARK SECTIONS */
+
+.dark-section {
+    padding: 120px 8vw;
+    background: var(--brown);
+    color: var(--white);
+}
+
+.heading {
+    max-width: 720px;
+    margin-bottom: 55px;
+}
+
+.heading h2 i {
+    color: #d6ad69;
+}
+
+.heading > p:last-child {
+    margin-top: 18px;
+    color: #cbbba5;
+}
+
+/* EXPERIENCE */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid rgba(255,255,255,.15);
+}
+
+.card {
+    padding: 38px 25px 20px 0;
+    border-right: 1px solid rgba(255,255,255,.12);
+}
+
+.card:not(:first-child) {
+    padding-left: 25px;
+}
+
+.card:last-child {
+    border-right: none;
+}
+
+.icon {
+    color: #d5a95e;
+    font-size: 28px;
+}
+
+.card h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 28px;
+    margin: 17px 0 10px;
+}
+
+.card p {
+    color: #cdbda8;
+    font-size: 14px;
+}
+
+/* GALLERY */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 14px;
+}
+
+.gallery-item {
+    grid-column: span 4;
+    overflow: hidden;
+}
+
+.gallery-item.big {
+    grid-column: span 8;
+    grid-row: span 2;
+}
+
+.gallery-item.wide {
+    grid-column: span 8;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    transition: .7s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.04);
+}
+
+/* MENU */
+
+.menu-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    padding: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+    border: 1px solid rgba(218,187,139,.35);
+}
+
+.menu-grid h3 {
+    color: #d9b575;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+
+    margin-bottom: 20px;
+}
+
+.menu-grid p {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 13px 0;
+
+    border-bottom: 1px dashed rgba(255,255,255,.15);
+
+    color: #e9dcc9;
+    font-size: 14px;
+}
+
+.menu-grid b {
+    color: #d8b16f;
+    font-weight: 500;
+}
+
+/* QUOTE */
+
+.quote {
+    padding: 140px 8vw;
+    text-align: center;
+    background: var(--paper);
+}
+
+.quote h2 {
+    max-width: 950px;
+    margin: auto;
+}
+
+.quote h2 i {
+    color: var(--walnut);
+}
+
+/* VISIT */
+
+.visit-image img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    box-shadow: 0 20px 50px rgba(43,27,18,.16);
+}
+
+.visit-text {
+    max-width: 500px;
+    margin: 25px 0;
+
+    color: var(--muted);
+}
+
+.contact {
+    display: grid;
+    gap: 17px;
+    margin: 25px 0 30px;
+}
+
+.contact p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.contact strong {
+    display: block;
+    color: var(--walnut);
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 70px 8vw 25px;
+
+    text-align: center;
+
+    background: #1d100a;
+    color: #eee2d2;
+}
+
+.footer-logo {
+    color: #d5a95e;
+    font-size: 30px;
+}
+
+footer h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+footer p {
+    color: #c7af91;
+    font-family: Parisienne, cursive;
+    font-size: 23px;
+}
+
+.copyright {
+    margin-top: 55px;
+    padding-top: 18px;
+
+    border-top: 1px solid rgba(255,255,255,.1);
+
+    color: #927d69;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+    nav {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 9px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card:nth-child(2) {
+        border-right: none;
+    }
+
+    .card:nth-child(3),
+    .card:nth-child(4) {
+        border-top: 1px solid rgba(255,255,255,.12);
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .header {
+        height: 68px;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+
+        position: absolute;
+        top: 68px;
+        left: 0;
+        right: 0;
+
+        padding: 22px 7vw;
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        background: #2b1b12;
+    }
+
+    nav.show {
+        display: flex;
+    }
+
+    .hero-content {
+        margin-left: 7vw;
+        padding-right: 7vw;
+    }
+
+    .hero h1 {
+        font-size: clamp(52px, 15vw, 76px);
+    }
+
+    .hero-content > p:not(.eyebrow) {
+        font-size: 15px;
+    }
+
+    .section,
+    .dark-section {
+        padding: 80px 7vw;
+    }
+
+    .story,
+    .visit {
+        grid-template-columns: 1fr;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card,
+    .card:not(:first-child) {
+        padding: 30px 0;
+        border-right: none;
+        border-top: 1px solid rgba(255,255,255,.12);
+    }
+
+    .card:first-child {
+        border-top: none;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery-item,
+    .gallery-item.big,
+    .gallery-item.wide {
+        grid-column: span 1;
+        grid-row: auto;
+    }
+
+    .gallery-item.big {
+        grid-column: span 2;
+    }
+
+    .gallery-item img {
+        min-height: 210px;
+    }
+
+    .menu-grid {
+        padding: 25px;
+    }
+
+    footer {
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+}
