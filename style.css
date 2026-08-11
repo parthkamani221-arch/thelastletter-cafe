@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="The Last Letter Cafe — Coffee, stories, memories and moments worth keeping.">
+
+    <title>The Last Letter Cafe</title>
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Parisienne&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<header class="site-header">
+
+    <a href="#home" class="brand">
+
+        <span class="brand-icon">✉</span>
+
+        <span class="brand-text">
+            <small>THE</small>
+            <strong>LAST LETTER</strong>
+            <em>CAFÉ</em>
+        </span>
+
+    </a>
+
+    <button class="menu-button"
+            aria-label="Open navigation">
+        ☰
+    </button>
+
+    <nav class="navigation">
+
+        <a href="#home">Home</a>
+
+        <a href="#story">Our Story</a>
+
+        <a href="#experience">Experience</a>
+
+        <a href="#gallery">Gallery</a>
+
+        <a href="#menu">Menu</a>
+
+        <a href="#visit">Visit Us</a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-dark"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            COFFEE • STORIES • MEMORIES
+        </p>
+
+        <h1>
+            Some feelings
+            <br>
+            <span>deserve a place.</span>
+        </h1>
+
+        <p class="hero-description">
+
+            A warm little café for conversations,
+            quiet moments, handwritten letters
+            and memories worth keeping.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#experience"
+               class="button button-gold">
+
+                Discover The Café
+
+            </a>
+
+            <a href="#menu"
+               class="button button-outline">
+
+                Explore Menu
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-text">
+        SCROLL TO DISCOVER ↓
+    </div>
+
+</section>
+
+
+<!-- =========================
+     STORY
+========================= -->
+
+<section id="story" class="story section">
+
+    <div class="story-content">
+
+        <p class="eyebrow eyebrow-dark">
+            THE IDEA
+        </p>
+
+        <h2>
+            Every letter
+            <br>
+            <i>has a story.</i>
+        </h2>
+
+        <div class="gold-line"></div>
+
+        <p class="story-description">
+
+            Some letters are never sent.
+
+            Some conversations never happen.
+
+            Some memories deserve one last place
+            to stay.
+
+        </p>
+
+        <p class="story-description">
+
+            The Last Letter Cafe is a space created
+            for those moments — where coffee,
+            conversations and stories come together.
+
+        </p>
+
+    </div>
+
+
+    <div class="story-photo">
+
+        <img src="images/1.jpg"
+             alt="The Last Letter Cafe">
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EXPERIENCE
+========================= -->
+
+<section id="experience"
+         class="experience section-dark">
+
+    <div class="section-heading light">
+
+        <p class="eyebrow">
+            THE EXPERIENCE
+        </p>
+
+        <h2>
+            More than
+            <br>
+            just coffee.
+        </h2>
+
+        <p>
+            Come for the coffee.
+            Stay for the feeling.
+        </p>
+
+    </div>
+
+
+    <div class="experience-grid">
+
+
+        <div class="experience-card">
+
+            <div class="experience-icon">
+                ✉
+            </div>
+
+            <h3>
+                Write Your Last Letter
+            </h3>
+
+            <p>
+
+                Put the words you've been
+                carrying somewhere safe.
+
+                Write, seal and leave a little
+                piece of your story behind.
+
+            </p>
+
+        </div>
+
+
+        <div class="experience-card">
+
+            <div class="experience-icon">
+                ☕
+            </div>
+
+            <h3>
+                Slow Coffee
+            </h3>
+
+            <p>
+
+                Warm cups, quiet corners
+                and coffee made for conversations
+                that don't need to be rushed.
+
+            </p>
+
+        </div>
+
+
+        <div class="experience-card">
+
+            <div class="experience-icon">
+                ♡
+            </div>
+
+            <h3>
+                Memory Corner
+            </h3>
+
+            <p>
+
+                Leave a thought, read someone
+                else's, or simply sit with
+                your own memories.
+
+            </p>
+
+        </div>
+
+
+        <div class="experience-card">
+
+            <div class="experience-icon">
+                📖
+            </div>
+
+            <h3>
+                Stories & Books
+            </h3>
+
+            <p>
+
+                A cozy atmosphere for readers,
+                dreamers, writers and anyone
+                who loves a good story.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     GALLERY
+========================= -->
+
+<section id="gallery"
+         class="gallery-section section">
+
+    <div class="section-heading">
+
+        <p class="eyebrow eyebrow-dark">
+            THE CAFÉ
+        </p>
+
+        <h2>
+            A place worth
+            <br>
+            <i>remembering.</i>
+        </h2>
+
+    </div>
+
+
+    <div class="gallery-grid">
+
+
+        <div class="gallery-photo gallery-large">
+
+            <img src="images/2.jpg"
+                 alt="The Last Letter Cafe">
+
+        </div>
+
+
+        <div class="gallery-photo">
+
+            <img src="images/3.jpg"
+                 alt="Cafe interior">
+
+        </div>
+
+
+        <div class="gallery-photo">
+
+            <img src="images/4.jpg"
+                 alt="Letter wall">
+
+        </div>
+
+
+        <div class="gallery-photo gallery-wide">
+
+            <img src="images/5.jpg"
+                 alt="Cafe atmosphere">
+
+        </div>
+
+
+        <div class="gallery-photo">
+
+            <img src="images/6.jpg"
+                 alt="Coffee at The Last Letter Cafe">
+
+        </div>
+
+
+        <div class="gallery-photo">
+
+            <img src="images/7.jpg"
+                 alt="The Last Letter Cafe">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MENU
+========================= -->
+
+<section id="menu"
+         class="menu-section">
+
+    <div class="section-heading light">
+
+        <p class="eyebrow">
+            FROM THE CAFÉ
+        </p>
+
+        <h2>
+            A little something
+            <br>
+            <i>for every mood.</i>
+        </h2>
+
+        <p>
+            Our menu will be updated with
+            the latest dishes and prices.
+        </p>
+
+    </div>
+
+
+    <div class="menu-container">
+
+
+        <!-- COFFEE -->
+
+        <div class="menu-category">
+
+            <h3>
+                ☕ Coffee
+            </h3>
+
+
+            <div class="menu-item">
+
+                <span>Espresso</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <span>Cappuccino</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <span>Café Latte</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <span>Mocha</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- DESSERT -->
+
+        <div class="menu-category">
+
+            <h3>
+                🍰 Sweet Stories
+            </h3>
+
+
+            <div class="menu-item">
+
+                <span>Cheesecake</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <span>Chocolate Cake</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <span>Brownie</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <span>Today's Special</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOD -->
+
+        <div class="menu-category">
+
+            <h3>
+                🥪 From the Kitchen
+            </h3>
+
+
+            <div class="menu-item">
+
+                <span>Sandwich</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <span>Toasties</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <span>Pasta</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+
+            <div class="menu-item">
+
+                <span>Chef's Special</span>
+
+                <strong>₹ —</strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     LETTER QUOTE
+========================= -->
+
+<section class="letter-section">
+
+    <p class="eyebrow eyebrow-dark">
+        A NOTE FROM US
+    </p>
+
+    <h2>
+
+        “Not every letter
+        <br>
+
+        needs a reply.
+
+        <br>
+
+        <i>
+            Some are just meant
+            to be felt.
+        </i>
+
+        ”
+
+    </h2>
+
+</section>
+
+
+<!-- =========================
+     VISIT
+========================= -->
+
+<section id="visit"
+         class="visit section">
+
+
+    <div class="visit-photo">
+
+        <img src="images/4.jpg"
+             alt="The Last Letter Cafe">
+
+    </div>
+
+
+    <div class="visit-content">
+
+        <p class="eyebrow eyebrow-dark">
+            COME SAY HELLO
+        </p>
+
+        <h2>
+
+            Your next story
+            <br>
+
+            <i>starts here.</i>
+
+        </h2>
+
+
+        <p class="visit-description">
+
+            A place for coffee,
+            conversations, letters
+            and moments worth remembering.
+
+        </p>
+
+
+        <div class="contact-information">
+
+
+            <div class="contact-row">
+
+                <span>📍</span>
+
+                <div>
+
+                    <small>ADDRESS</small>
+
+                    <strong>
+                        Coming soon
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-row">
+
+                <span>☎</span>
+
+                <div>
+
+                    <small>PHONE</small>
+
+                    <strong>
+                        Coming soon
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-row">
+
+                <span>✉</span>
+
+                <div>
+
+                    <small>EMAIL</small>
+
+                    <strong>
+                        hello@thelastletter.co.in
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <a href="mailto:hello@thelastletter.co.in"
+           class="button button-dark">
+
+            Write to Us
+
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div class="footer-icon">
+            ✉
+        </div>
+
+        <h3>
+            THE LAST LETTER CAFÉ
+        </h3>
+
+        <p>
+            Some feelings deserve a place.
+        </p>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 The Last Letter Cafe
+        </span>
+
+        <span>
+            Coffee • Food • Stories
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script>
+
+const menuButton =
+    document.querySelector(".menu-button");
+
+const navigation =
+    document.querySelector(".navigation");
+
+
+menuButton.addEventListener("click", function () {
+
+    navigation.classList.toggle("active");
+
+});
+
+
+document
+    .querySelectorAll(".navigation a")
+    .forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+            navigation.classList.remove("active");
+
+        });
+
+    });
+
+</script>
+
+</body>
+</html>
